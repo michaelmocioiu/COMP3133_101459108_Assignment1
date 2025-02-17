@@ -26,7 +26,6 @@ const EmployeeType = new GraphQLObjectType({
     }
 });
 
-// Mutation and Query type setup
 const Mutation = new GraphQLObjectType({
     name: 'Mutation',
     fields: {
